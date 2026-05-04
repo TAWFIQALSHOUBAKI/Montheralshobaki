@@ -189,7 +189,9 @@ footer span{color:var(--gold2)}
   .about-data-col{border-right:1px solid var(--border);border-top:none}
 }
 @media(max-width:768px){
-  .nav-links,.btn-print{display:none}
+  .nav-links{display:none}
+  .btn-print{font-size:.68rem;padding:5px 10px;letter-spacing:.04em}
+  .btn-print svg{width:12px;height:12px}
   .hbg{display:flex}
   .nav-links.open{display:flex;flex-direction:column;position:fixed;top:66px;right:0;left:0;background:var(--g900);padding:14px 18px 20px;border-bottom:1px solid rgba(255,255,255,.07);gap:3px}
   .sec{padding:64px 0}
@@ -247,7 +249,7 @@ footer span{color:var(--gold2)}
         <a href="#about">نبذة</a>
         <a href="#education">المؤهلات</a>
         <a href="#experience">الخبرات</a>
-        <a href="#references">المعرّفون</a>
+        <a href="#references">المراجع</a>
         <a href="#contact">التواصل</a>
       </div>
       <button class="btn-print" id="printPdfBtn" type="button" aria-label="Print or save as PDF">
@@ -387,7 +389,7 @@ footer span{color:var(--gold2)}
       </div>
       <div class="about-bio-col">
         <h3>السيرة المهنية</h3>
-        <p>مُعلِّم رياضيات متمرِّس يمتلك أكثر من ثلاثة عقود من الخبرة في تدريس المرحلة الثانوية، قضاها بين مدارس وزارة التربية والتعليم الأردنية وعدد من المؤسسات التعليمية المرموقة. يتميّز بقدرة استثنائية على تبسيط المفاهيم الرياضية وإيصالها للطلاب بأسلوب منهجي تحليلي، محقِّقاً نتائج مميزة جداً في الثانوية العامة مشرِّفة ومتواصلة عبر مسيرته المهنية.</p>
+        <p>مُعلِّم رياضيات متمرِّس يمتلك أكثر من ثلاثة عقود من الخبرة في تدريس المرحلة الثانوية، قضاها بين مدارس وزارة التربية والتعليم الأردنية وعدد من المؤسسات التعليمية المرموقة. يتميّز بقدرة استثنائية على تبسيط المفاهيم الرياضية وإيصالها للطلاب بأسلوب منهجي تحليلي، محقِّقاً نتائج مشرِّفة ومتواصلة في امتحانات الثانوية العامة (التوجيهي).</p>
       </div>
       <div class="about-data-col">
         <h3>
@@ -509,16 +511,10 @@ footer span{color:var(--gold2)}
       <div class="ico">
         <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
       </div>
-      <h2>المعرّفون</h2>
+      <h2>المراجع والتزكيات</h2>
       <p class="en">References</p>
     </div>
     <div class="ref-grid">
-      <div class="ref-card reveal">
-        <div class="ref-avatar">أ</div>
-        <div class="ref-name">د. أكرم الديّات</div>
-        <div class="ref-title">مشرف رياضيات — وزارة التربية والتعليم</div>
-        <div class="ref-phone"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:+962798030154" style="color:inherit;text-decoration:none;">+962798030154</a></div>
-      </div>
       <div class="ref-card reveal">
         <div class="ref-avatar">ف</div>
         <div class="ref-name">د. فارس الحنيفات</div>
@@ -534,14 +530,14 @@ footer span{color:var(--gold2)}
       <div class="ref-card reveal">
         <div class="ref-avatar">ح</div>
         <div class="ref-name">د. حسام مشة</div>
-        <div class="ref-title">مدير مدرسة — مستشار تربوي</div>
+        <div class="ref-title">مدير مدرسة</div>
         <div class="ref-phone"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:+962790834623" style="color:inherit;text-decoration:none;">+962790834623</a></div>
       </div>
       <div class="ref-card reveal">
-        <div class="ref-avatar">ب</div>
-        <div class="ref-name">باسم الجعبري</div>
-        <div class="ref-title">مستشار تربوي</div>
-        <div class="ref-phone"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:+962788667582" style="color:inherit;text-decoration:none;">+962788667582</a></div>
+        <div class="ref-avatar">أ</div>
+        <div class="ref-name">د. أكرم الديّات</div>
+        <div class="ref-title">مشرف رياضيات — وزارة التربية والتعليم</div>
+        <div class="ref-phone"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:+962798030154" style="color:inherit;text-decoration:none;">+962798030154</a></div>
       </div>
     </div>
   </div>
@@ -557,7 +553,7 @@ footer span{color:var(--gold2)}
       <p class="en">Contact</p>
     </div>
     <div class="contact-box reveal">
-      <p>يسعدني الاطلاع على الفرص المهنية وفرص التعاون الأكاديمي.<br/>يمكن التواصل معي عبر المعرّفين المذكورين أعلاه أو مباشرةً.</p>
+      <p>يسعدني الاطلاع على الفرص المهنية وفرص التعاون الأكاديمي.<br/>يمكن التواصل معي عبر المراجع المذكورة أعلاه أو مباشرةً.</p>
       <div class="contact-list">
         <div class="ci">
           <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
@@ -637,7 +633,7 @@ footer span{color:var(--gold2)}
       </section>
 
       <section class="pcv-section">
-        <h2>المعرّفون</h2>
+        <h2>المراجع</h2>
         <div class="pcv-refs">
           <div class="pcv-ref">
             <strong>د. فارس الحنيفات</strong>
@@ -655,14 +651,9 @@ footer span{color:var(--gold2)}
             <span><a href="tel:+962790834623">+962790834623</a></span>
           </div>
           <div class="pcv-ref">
-            <strong>د. فارس الحنيفات</strong>
+            <strong>د. أكرم الديّات</strong>
             <span>مشرف رياضيات - وزارة التربية والتعليم</span>
             <span><a href="tel:+962798030154">+962798030154</a></span>
-          <div class="pcv-ref">
-            <strong>باسم الجعبري</strong>
-            <span>مستشار تربوي</span>
-            <span><a href="tel:+962788667582">+962788667582</a></span>
-          </div>
           </div>
         </div>
       </section>
